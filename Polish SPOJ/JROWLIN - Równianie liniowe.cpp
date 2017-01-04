@@ -2,15 +2,12 @@
 #include <iomanip>
 #include <math.h>
 using namespace std;
-
 double a,b,c,x;
 int d;
-
 int main()
 {
     while(cin>>a>>b>>c)
     {
-
     x=(c-b)/a;
     if(a==0&&(c-b)!=0) cout<<"BR";
     else if(a==0&&(c-b)==0) cout<<"NWR";
